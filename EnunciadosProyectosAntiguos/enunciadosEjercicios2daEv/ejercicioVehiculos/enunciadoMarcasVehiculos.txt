@@ -1,0 +1,61 @@
+Crea la clase Coche con los siguientes atributos
+1- marca
+2- modelo
+3- color
+4- matricula
+
+un constructor sin paramentros y otro con todo los parametros
+asi como sus gettter() setter() y el toString().
+----------------------
+
+
+1- un metodo que lea el fichero de texto y devuelva un ArrayList de  objetos Coche
+2- un metodo que recoja ese ArrayList y devuelva un hashmap ordenado por marca de coche
+3-un metodo que recoja ese hashmap y lo imprima por consola
+(o sea las marcas con todos lo datos del coche)
+
+SEAT#Córdoba#Rojo#1234ABC
+PEUGEOT#308#Verde#4321BCA
+CITROEN#C1#Azul#4567FGH
+MERCEDEZ#CLS#Amarillo#3456CVB
+FORD#C-Max#Negro#7898JKL
+SEAT#Ibiza#Blanco#9876KJH
+PEUGEOT#208#Rojo#1356XSW
+CITROEN#C2#Verde#5646DFG
+MERCEDEZ#CLA#Azul#3453JTR
+FORD#Fiesta#Amarillo#7688EWF
+SEAT#León#Negro#6786GRE
+PEUGEOT#508#Blanco#6234HRT
+CITROEN#C3#Rojo#0986YUT
+MERCEDEZ#Clase A#Blanco#4562SFD
+FORD#Focus#Negro#2324WER
+
+
+MARCA     MODELO        COLOR            MATRICULA
+_________________________________________________
+
+CITROEN
+          C1            Azul             4567FGH
+          C2            Verde            5646DFG
+          C3            Rojo             0986YUT
+_________________________________________________
+FORD
+          C-Max         Negro            7898JKL
+          Fiesta        Amarillo         7688EWF
+          Focus         Negro            2324WER
+_________________________________________________
+MERCEDEZ
+          CLA           Azul             3453JTR
+          Clase A       Blanco           4562SFD
+          CLS           Amarillo         3456CVB
+_________________________________________________
+PEUGEOT
+          208           Rojo             1356XSW
+          308           Verde            4321BCA
+          508           Blanco           6234HRT
+_________________________________________________
+SEAT
+          Córdoba       Rojo             1234ABC
+          Ibiza         Blanco           9876KJH
+          León          Negro            6786GRE
+_________________________________________________

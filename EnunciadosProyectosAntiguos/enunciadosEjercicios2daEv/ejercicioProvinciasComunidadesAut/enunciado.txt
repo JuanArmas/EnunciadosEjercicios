@@ -1,0 +1,23 @@
+Listado de provincias de las CCAA
+
+Comunidad Autonoma: Pais Vasco
+Alava --------------------------------------> 1500
+gipuzkoa -----------------------------------> 1000
+bizkaia ------------------------------------> 150
+TOTAL CCAA Pais Vasco ----------------------> 2650
+
+Comunidad Autonoma: Castilla - La Mancha
+Albacete -----------------------------------> 1200
+Ciudad Real --------------------------------> 1300
+Guadalajara --------------------------------> 1000
+Cuenca -------------------------------------> 2000
+Toledo--------------------------------------> 300
+TOTAL CCAA Castilla - La Mancha ------------> 5800
+
+Comunidad Autonoma: Comunitat valenciana
+Alicante -----------------------------------> 2000
+Castellon ----------------------------------> 2000
+Valencia -----------------------------------> 250
+TOTAL CCAA Comunitat valenciana ------------> 4250
+
+etc...

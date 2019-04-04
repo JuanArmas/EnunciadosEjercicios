@@ -1,0 +1,50 @@
+EJERCICIO 1
+3,3 puntos
+Implementar un método que carga los datos procedentes de un fichero que contiene los movimientos de diferentes
+cuentas bancarias. Se adjunta el fichero a leer, llamado “movimientosCuentas.txt”, que se encuentra en el directorio
+“ficheros” del proyecto.
+El prototipo deberá ser el siguiente:
+
+  public ArrayList<Movimiento> examenCargaMovimientos(String rutaFichero)
+
+Crear la clase Movimiento (en el paquete “modelo”), con las siguientes propiedades privadas:
+ fechaHora, de tipo String (AAAAMMDD_HHmm)
+idCuenta, de tipo entero
+importe, de tipo float
+tipoMov, de tipo char
+
+Crear getters/setters y constructor(es)
+SUGERENCIA:  Recorrer secuencialmente el fichero de movimientos creando un objeto de la clase creada. Añadir 
+dicho objeto a una lista, que es la que devuelve el método
+
+EJERCICIO 2
+2 puntos
+Implementar un método que calcule el saldo final de una cuenta bancaria
+El prototipo deberá ser el siguiente:
+
+ public float examenCalculaSaldo(float[][] movimientos, float saldoInicial)
+
+Los movimientos vienen en una matriz de float, pueden ser positivos y negativos, por ejemplo, 10.5f,  -20.47f.
+El valor que devuelve el método representa el saldo final, una vez aplicados los movimientos que vienen en la matriz.
+
+SUGERENCIA:  Recorrer la matriz de movimientos y acumularlos al saldo inicial. Devolver al final el saldo resultante.
+
+EJERCICIO 3
+4 puntos
+Procesar el fichero “TuristasIsla2016.txt” para obtener el siguiente  resumen de visitantes a Canarias por la consola.
+
+Enero : total turistas ese mes
+febrero: total turistas ese mes
+.
+.
+.
+.
+.
+diciembre: total turistas ese mes
+
+
+CONSEJO:  Usar los métodos desarrollados en clase. Recordar que primero hay que cargar el fichero en memoria, en una matriz de float. Luego se obtiene el acumulado por mes, recorriendo la matriz anterior por columnas. Finalmente se recorre el array acumulado para hacer el listado. Hay que definir un array para los guardar los nombres de los 12 meses.
+
+
+Para obtener la puntuación máxima por cada ejercicio se debe llamar al método para su prueba, desde la clase Ejercicio1.
+Suerte

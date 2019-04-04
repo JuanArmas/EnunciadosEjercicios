@@ -1,0 +1,16 @@
+REPASO DE PROGRAMACION
+
+5 de febrero de 2018
+
+
+Dado el fichero marcasVehiculos.txt, a crear por cada uno:
+
+1. Crear la clase Vehiculo, con las siguientes propiedades:
+
+       id, entero
+       matricula, cadena
+       marcaModelo, entero
+       fechaMatricula, LocalDate
+
+2. Crear un método que lea el fichero y devuelva un ArrayList de Vehiculo
+3. Crear un método que cree un fichero con objetos de la clase Vehiculo

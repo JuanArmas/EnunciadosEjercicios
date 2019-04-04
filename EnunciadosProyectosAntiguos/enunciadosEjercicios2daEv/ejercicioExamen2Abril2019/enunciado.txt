@@ -1,0 +1,40 @@
+											EJERCICIO 1
+
+A partir del fichero “jugadores.txt”, se pide desarrollar un método con el prototipo siguiente:
+
+public ArrayList<Jugador> ejercicio1 (String rutaJugadores , String equipo)
+
+Procedimiento:
+Se recorre dicho fichero, comprobando si el jugador leído pertenece al equipo dado por parámetro.
+ Si pertenece se procede a crear el objeto jugador y se añade a la lista.
+
+
+
+											EJERCICIO 2
+
+Nuevamente, recorriendo el fichero “jugadores.txt” , se pide obtener un mapa de jugadores por equipo. 
+El prototipo debe ser el siguiente:
+
+public HashMap<String, ArrayList<Jugador>> ejercicio2 (String rutaJugadores)
+
+La clave representa el código del equipo.
+
+Si la ruta al fichero no existe, se devolverá null.
+
+
+
+
+											EJERCICIO 3
+
+Recorrer el fichero “equipos.txt” ,  e imprimir una lista ordenada de los mismos, por su nombre.
+
+Este ejercicio se compone de dos métodos:
+
+public ArrayList<Equipo> ejercicio3_1 (String rutaEquipos)
+
+public void ejercicio3_2 (ArrayList<Equipo> equipos)
+
+El primer método debe devolver la lista ordenada de los equipos.
+El segundo recorre dicha lista y los muestra por la consola.
+
+IMPORTANTE: La ordenación debe hacerse usando la interfaz Comparable.

@@ -1,0 +1,10 @@
+1#Autor UNO
+2#Autor DOS
+3#Autor TRES
+4#Autor CUATRO
+5#Autor CINCO
+6#Autor SEIS
+7#Autor SIETE
+8#Autor OCHO
+9#Autor NUEVE
+10#Autor DIEZ

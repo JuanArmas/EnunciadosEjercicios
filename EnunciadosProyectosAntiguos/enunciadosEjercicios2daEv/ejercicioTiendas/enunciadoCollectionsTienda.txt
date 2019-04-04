@@ -1,0 +1,13 @@
+Teniendo tres listados, productos, categorias y almacenes.
+
+1.- listado productos por categoria
+2.- listados de productos por almacen
+3.- stock de productos total por categorias y por almacen
+
+crear las clases producto, categoria y almacen.
+
+listado productos:
+id - nombreProducto - precio - cantidad - categoria
+
+listado categoria:
+id - nombreCategoria

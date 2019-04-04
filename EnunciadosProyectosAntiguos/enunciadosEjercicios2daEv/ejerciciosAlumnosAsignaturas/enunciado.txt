@@ -1,0 +1,11 @@
+- A partir de los ficheros:
+		- notasAlumnos.txt y asignaturas.txt
+		- Hacer el listado siguiente:
+
+			nomAsig1	nomAsig2	nomAsig3	nomAsig4	nomAsig5
+nomAlumno -> nota1 	  -  nota2 	 - 	 nota3 	 - 	 nota4 	 - 	 nota5
+repetirfilaPorAlumno
+
+- Objetivos extra: Una vez hecho el listado anterior, se pide
+obtener la nota media por asignatura y alumno (columna y fila
+respectivamente).

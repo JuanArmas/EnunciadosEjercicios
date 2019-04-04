@@ -1,0 +1,35 @@
+A partir de la tabla libros,  se pide un método que devuelva una lista de libros por cada editorial.
+
+se adjunta la clase libro
+
+public class Libro {
+	private int id;
+	private int tema;
+	private int editorial;
+	private String titulo;
+	private int autor;
+	private char disponible;
+	private String isbn;
+	private float precio;
+	private String portada;
+	private LocalDate fecha;
+	// COMENTARIO DE EXAMEN. 
+	// CREAR getter/setters y constructor vacio.
+}
+
+El prototipo del método debe ser:
+
+public HashMap <Integer, ArrayList<Libro>> getLibrosPorEditorial () {
+}
+
+La clave en el HashMap representa el código de LA EDITORIAL
+
+EL FICHERO LIBROS TIENE ESTE FORMATO
+FICHERO LIBROS.TXT
+(id, tema, editorial, titulo, autor, disponible, isbn, precio, portada, fechapublicacion)
+
+Finalmente crea un método que recoja el hashmap anterior y muestre por consola el listado de libros ordenados por su
+ editorial
+
+ 
+ /*SOLUCION EN JAVIPROYECTCOLLECTIONS, las clases se llaman algoExamen2DaEv*/

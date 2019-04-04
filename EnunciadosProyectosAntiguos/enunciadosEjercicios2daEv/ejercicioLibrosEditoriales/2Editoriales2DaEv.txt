@@ -1,0 +1,10 @@
+1#Editorial UNO
+2#Editorial DOS
+3#Editorial TRES
+4#Editorial CUATRO
+5#Editorial CINCO
+6#Editorial SEIS
+7#Editorial SIETE
+8#Editorial OCHO
+9#Editorial NUEVE
+10#Editorial DIEZ

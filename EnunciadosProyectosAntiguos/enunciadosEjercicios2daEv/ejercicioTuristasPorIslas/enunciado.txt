@@ -1,0 +1,52 @@
+para el ejercicio que estábamos haciendo de islas, meses y visitantes hay que hacer un método en la vista que muestre los datos parecido a una tabla
+
+                 ENERO  FEBRERO  MARZO  ABRIL .....
+GRAN CANARIA
+LANZAROTE
+FUERTEVENTURA        ** LOS DATOS DE LOS VISITANTES **
+TENERIFE
+LA PALMA
+LA GOMERA
+EL HIERRO
+
+
+Siguiente método igual que el de arriba que muestre la suma de visitantes de enero, de febrero y así con todos los meses.
+
+                 ENERO  FEBRERO  MARZO  ABRIL .....
+GRAN CANARIA
+LANZAROTE
+FUERTEVENTURA        ** LOS DATOS DE LOS VISITANTES **
+TENERIFE
+LA PALMA
+LA GOMERA
+EL HIERRO
+	total:  xxxx    xxxxx     xxxxx  xxxxx ......
+
+
+Siguiente método igual que el primero del todo que muestre la suma de visitantes de por cada isla
+
+                 ENERO  FEBRERO  MARZO  ABRIL .....         total
+GRAN CANARIA                                                xxxxx
+LANZAROTE                                                   xxxxx
+FUERTEVENTURA        ** LOS DATOS DE LOS VISITANTES **      xxxxx
+TENERIFE
+LA PALMA
+LA GOMERA
+EL HIERRO
+
+
+por ultimo un método que muestre al mismo tiempo la suma de meses y de islas
+
+                 ENERO  FEBRERO  MARZO  ABRIL .....         total
+GRAN CANARIA                                                xxxxx
+LANZAROTE                                                   xxxxx
+FUERTEVENTURA        ** LOS DATOS DE LOS VISITANTES **      xxxxx
+TENERIFE
+LA PALMA
+LA GOMERA
+EL HIERRO
+	total:  xxxx    xxxxx     xxxxx  xxxxx ......
+
+Y ya para nota si justo en la esquina inferior derecha aparece el total de todo
+que sería el total de visitantes de todas las islas durante el año, ya lo bordan
+tiene que quedar en la fila y columna que le corresponde, aunque no quede alineado
